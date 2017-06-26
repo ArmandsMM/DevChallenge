@@ -8,25 +8,31 @@
 
 /* Begin PBXBuildFile section */
 		51A12B1E99C21D7E06BFE9A3 /* Pods_DevChallenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B594102E93CA2C1C5F42B2A7 /* Pods_DevChallenge.framework */; };
-		C75D05E31F012B69006C4EE6 /* RibonAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75D05E21F012B69006C4EE6 /* RibonAPI.swift */; };
+		C6B0422C1F01B046002915EE /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6B0422B1F01B046002915EE /* Launch Screen.storyboard */; };
+		C6EDBCDA1F01548300356644 /* RibotCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EDBCD81F01548300356644 /* RibotCollectionViewCell.swift */; };
+		C6EDBCDD1F015F2300356644 /* RibotDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EDBCDC1F015F2300356644 /* RibotDetailVC.swift */; };
+		C6EDBCDF1F017AB100356644 /* RibotModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6EDBCDE1F017AB100356644 /* RibotModel.swift */; };
+		C75D05E31F012B69006C4EE6 /* RibotAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75D05E21F012B69006C4EE6 /* RibotAPI.swift */; };
 		C7FEB92E1F0121F0009D15F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FEB92D1F0121F0009D15F2 /* AppDelegate.swift */; };
 		C7FEB9301F0121F0009D15F2 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FEB92F1F0121F0009D15F2 /* MainVC.swift */; };
 		C7FEB9331F0121F1009D15F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7FEB9311F0121F1009D15F2 /* Main.storyboard */; };
 		C7FEB9351F0121F1009D15F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7FEB9341F0121F1009D15F2 /* Assets.xcassets */; };
-		C7FEB9381F0121F1009D15F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7FEB9361F0121F1009D15F2 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4101DD57BF1132DC7169F0CB /* Pods-DevChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DevChallenge.release.xcconfig"; path = "Pods/Target Support Files/Pods-DevChallenge/Pods-DevChallenge.release.xcconfig"; sourceTree = "<group>"; };
 		A0B4C07EA244A4437FD15A4D /* Pods-DevChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DevChallenge.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DevChallenge/Pods-DevChallenge.debug.xcconfig"; sourceTree = "<group>"; };
 		B594102E93CA2C1C5F42B2A7 /* Pods_DevChallenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DevChallenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C75D05E21F012B69006C4EE6 /* RibonAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RibonAPI.swift; sourceTree = "<group>"; };
+		C6B0422B1F01B046002915EE /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		C6EDBCD81F01548300356644 /* RibotCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RibotCollectionViewCell.swift; sourceTree = "<group>"; };
+		C6EDBCDC1F015F2300356644 /* RibotDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RibotDetailVC.swift; sourceTree = "<group>"; };
+		C6EDBCDE1F017AB100356644 /* RibotModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RibotModel.swift; sourceTree = "<group>"; };
+		C75D05E21F012B69006C4EE6 /* RibotAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RibotAPI.swift; sourceTree = "<group>"; };
 		C7FEB92A1F0121F0009D15F2 /* DevChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DevChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7FEB92D1F0121F0009D15F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C7FEB92F1F0121F0009D15F2 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		C7FEB9321F0121F1009D15F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C7FEB9341F0121F1009D15F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C7FEB9371F0121F1009D15F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C7FEB9391F0121F1009D15F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -84,9 +90,12 @@
 				C7FEB92F1F0121F0009D15F2 /* MainVC.swift */,
 				C7FEB9311F0121F1009D15F2 /* Main.storyboard */,
 				C7FEB9341F0121F1009D15F2 /* Assets.xcassets */,
-				C7FEB9361F0121F1009D15F2 /* LaunchScreen.storyboard */,
 				C7FEB9391F0121F1009D15F2 /* Info.plist */,
-				C75D05E21F012B69006C4EE6 /* RibonAPI.swift */,
+				C75D05E21F012B69006C4EE6 /* RibotAPI.swift */,
+				C6EDBCD81F01548300356644 /* RibotCollectionViewCell.swift */,
+				C6EDBCDC1F015F2300356644 /* RibotDetailVC.swift */,
+				C6EDBCDE1F017AB100356644 /* RibotModel.swift */,
+				C6B0422B1F01B046002915EE /* Launch Screen.storyboard */,
 			);
 			path = DevChallenge;
 			sourceTree = "<group>";
@@ -154,8 +163,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C7FEB9381F0121F1009D15F2 /* LaunchScreen.storyboard in Resources */,
 				C7FEB9351F0121F1009D15F2 /* Assets.xcassets in Resources */,
+				C6B0422C1F01B046002915EE /* Launch Screen.storyboard in Resources */,
 				C7FEB9331F0121F1009D15F2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -215,9 +224,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6EDBCDF1F017AB100356644 /* RibotModel.swift in Sources */,
 				C7FEB9301F0121F0009D15F2 /* MainVC.swift in Sources */,
 				C7FEB92E1F0121F0009D15F2 /* AppDelegate.swift in Sources */,
-				C75D05E31F012B69006C4EE6 /* RibonAPI.swift in Sources */,
+				C6EDBCDD1F015F2300356644 /* RibotDetailVC.swift in Sources */,
+				C75D05E31F012B69006C4EE6 /* RibotAPI.swift in Sources */,
+				C6EDBCDA1F01548300356644 /* RibotCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,14 +242,6 @@
 				C7FEB9321F0121F1009D15F2 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		C7FEB9361F0121F1009D15F2 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C7FEB9371F0121F1009D15F2 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
