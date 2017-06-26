@@ -8,13 +8,13 @@ Manual
 3. edit podfile with needed pods
 
 
-      # Podfile
-      use_frameworks!
+# Podfile
+use_frameworks!
 
-      target 'DevChallenge' do
-          pod 'RxSwift',    '~> 3.0'
-          pod 'RxCocoa',    '~> 3.0'
-      end
+target 'DevChallenge' do
+      pod 'RxSwift',    '~> 3.0'
+      pod 'RxCocoa',    '~> 3.0'
+end
 end
 Replace YOUR_TARGET_NAME and then, in the Podfile directory, type:
 
